@@ -30,7 +30,7 @@ def reformat_languages(languages)
       :javascript => {
         :type => "interpreted"
       }
-   
+
     }
   }
 
@@ -48,3 +48,6 @@ def reformat_languages(languages)
   new_hash[:javascript][:style] = [:oo, :functional]
   new_hash
 end
+
+
+#done
